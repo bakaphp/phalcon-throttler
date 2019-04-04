@@ -1,6 +1,6 @@
 <?php
 
-namespace OakLabs\PhalconThrottler;
+namespace Baka\PhalconThrottler;
 
 class RateLimit
 {

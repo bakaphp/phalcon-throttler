@@ -1,9 +1,9 @@
 <?php
 
-namespace OakLabs\PhalconThrottler\Tests;
+namespace Baka\PhalconThrottler\Tests;
 
-use OakLabs\PhalconThrottler\RateLimit;
-use OakLabs\PhalconThrottler\RedisThrottler;
+use Baka\PhalconThrottler\RateLimit;
+use Baka\PhalconThrottler\RedisThrottler;
 
 class ThrottlerTest extends TestCase
 {
