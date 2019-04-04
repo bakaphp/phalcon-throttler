@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "OakLabs GmbH",
-            "email": "development@oak-labs.com"
+            "name": "Justin Sencion",
+            "email": "info@mctekk.com"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OakLabs\\PhalconThrottler\\": "src/PhalconThrottler"
+            "Baka\\PhalconThrottler\\": "src/PhalconThrottler"
         }
     },
     "minimum-stability": "dev",
