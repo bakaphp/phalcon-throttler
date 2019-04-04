@@ -15,7 +15,7 @@ PHP 7.1+ and Phalcon 3.1.2+ are required.
 
 ## Installation
  
-Throttler can be installed through Composer, just include `"oaklabs/phalcon-throttler": "^0.1"` to your composer.json and run `composer update` or `composer install`.
+Throttler can be installed through Composer, just include `"bakaphp/phalcon-throttler": "^0.1"` to your composer.json and run `composer update` or `composer install`.
 
 ## Usage
 
@@ -42,7 +42,7 @@ We can set it up in the Dependency Injection container as well
 
 ```php
 $di->setShared('throttler',function() use ($di) {
-    return new OakLabs\PhalconThrottler\RedisThrottler($di->get('redis'), [
+    return new Baka\PhalconThrottler\RedisThrottler($di->get('redis'), [
         'bucket_size'  => 20,
         'refill_time'  => 600, // 10m
         'refill_amount'  => 10
@@ -109,7 +109,7 @@ namespace MyNamespace;
 use Phalcon\Events\Event;
 use Phalcon\Mvc\User\Plugin;
 use Phalcon\Mvc\Dispatcher;
-use OakLabs\PhalconThrottler\ThrottlerInterface;
+use Baka\PhalconThrottler\ThrottlerInterface;
 
 class Security extends Plugin
 {

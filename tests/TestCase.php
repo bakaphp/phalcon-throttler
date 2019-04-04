@@ -1,6 +1,6 @@
 <?php
 
-namespace OakLabs\PhalconThrottler\Tests;
+namespace Baka\PhalconThrottler\Tests;
 
 use Phalcon\Di;
 use Phalcon\Test\UnitTestCase as PhalconTestCase;
