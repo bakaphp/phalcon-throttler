@@ -2,7 +2,7 @@
 
 namespace OakLabs\PhalconThrottler;
 
-class RedisThrottler implements ThrottlerInterface
+class RedisClusterThrottler implements ThrottlerInterface
 {
     /**
      * @var \Redis
