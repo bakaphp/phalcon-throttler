@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OakLabs\\PhalconThrottler\\": "src/PhalconThrottler"
+            "Baka\\PhalconThrottler\\": "src/PhalconThrottler"
         }
     },
     "minimum-stability": "dev",
